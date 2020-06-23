@@ -1,0 +1,11 @@
+{
+  "name": "Garfield auto-redirect",
+  "version": "1.0",
+  "description": "Redirect to the current Garfield strip on GoComics",
+  "permissions": ["webNavigation", "downloads"],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+  "manifest_version": 2
+}
